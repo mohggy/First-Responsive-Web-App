@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+
+/* for 875px or less */
+@media only screen and (max-width: 875px) {
+
+  #content {
+  display: grid;
+  grid-area: body;
+  grid-template-rows: 30% 70%;
+  grid-template-areas:
+    "options options"
+    "recipe recipe"
+}
+
+  .title {
+    text-align: center;
+  }
+  .responsiveNav {
+    margin-top: 65px;
+    background-color: floralwhite;
+    width: 70%;
+  }
+
+  .collapsible {
+    list-style-type: none;
+    font-size: 35pt;
+  }
+
+
+  #icons img {
+    display: none;
+  }
+
+}
+
+
+/* for min 876px */
+
+@media only screen and (min-width: 876px) {
+
+  #hamMenu img {
+    display: none;
+  }
+
+#content {
+  display: grid;
+  grid-area: body;
+  grid-template-rows: 30% 70%;
+  grid-template-areas:
+    "options options"
+    "recipe recipe"
+}
+
+  #icons {
+  grid-area: options;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas:
+    "fudge bday mac sm"
+}
+
+#icons img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.fudge {
+  grid-area: fudge;
+  align-self: center;
+}
+
+.bday {
+  grid-area: bday;
+  align-self: center;
+}
+
+.macademia {
+  grid-area: mac;
+  align-self: center;
+}
+
+.smores {
+  grid-area: sm;
+  align-self: center;
+}
+
+}
+/*        CONTAINER          */
+#container {
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  grid-template-areas:
+    "navbar navbar"
+    "body body"
+    "bottom bottom";
+  height: 100vh;
+  width: 100vw;
+}
+
+/*        NAV-BAR       */
+#navbar {
+  background-color: orangered;
+  font-family: "Gruppo", cursive;
+  grid-area: navbar;
+}
+
+#hamMenu img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 30pt;
+  color: white;
+  font-weight: bold;
+  margin-left: 60px;
+  transform: translate(0, -40%);
+  display: inline-block;
+}
+
+.navOptions {
+  color: black;
+  font-size: 20pt;
+  transform: translate(0, -70%);
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
