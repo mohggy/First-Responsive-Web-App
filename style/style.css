@@ -20,7 +20,7 @@
     text-align: center;
   }
   .responsiveNav {
-    margin-top: 65px;
+    margin-top: 75px;
     background-color: floralwhite;
     width: 70%;
   }
@@ -91,6 +91,10 @@
   grid-area: sm;
   align-self: center;
 }
+
+  .responsiveNav {
+    display: none;
+  }
 
 }
 /*        CONTAINER          */
