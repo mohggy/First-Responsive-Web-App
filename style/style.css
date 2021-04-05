@@ -44,6 +44,7 @@
   }
 
   .recipe-title {
+    margin-top: 200px;
     grid-area: title;
     text-align: center;
     color: black;
@@ -54,6 +55,7 @@
 
 
   #recipes {
+    margin-top: 90px;
     grid-area: recipe;
   }
 
@@ -69,6 +71,10 @@
     display: none;
   }
   #hamMenu img {
+    display: none;
+  }
+
+  .collapsible {
     display: none;
   }
 
@@ -195,6 +201,23 @@ a:visited {
 a:hover {
   color: white;
 }
+
+#recipes {
+  font-family: "Amatic SC";
+  text-transform: uppercase;
+}
+
+.recipeImg {
+  float: right;
+  margin-right: 100px;
+  width: 20%;
+}
+
+hr {
+  width: 85%;
+  background-color: gainsboro;
+}
+
 
 
 

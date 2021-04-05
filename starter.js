@@ -33,11 +33,17 @@ app.get("/ajax-GET", function (req,res) {
     let responseFormat = req.query["format"];
     let dataList = null;
 
+  
     if (responseFormat == "fudge-HTML") {
         res.setHeader("Content-Type", "text/html");
         dataList = data.getFudge();
         res.send(dataList);
+    }     else if (responseFormat == "bday-HTML") {
+        res.setHeader("Content-Type", "text/html");
+        dataList = data.getBirthday();
+        res.send(dataList);
     }
+
 
 });
 

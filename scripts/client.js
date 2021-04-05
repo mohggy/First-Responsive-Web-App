@@ -1,13 +1,13 @@
 $(function () {
-  $(window). on ("load", function () {
-    $(".responsiveNav").css({"display":"none"});
+  $(window).on("load", function () {
+    $(".responsiveNav").css({ "display": "none" });
   })
 
-  $("#hamMenu img").on("click", function() {
+  $("#hamMenu img").on("click", function () {
     if ($(".responsiveNav").css("display") == "none") {
-      $(".responsiveNav").css({"display":"block"});
+      $(".responsiveNav").css({ "display": "block" });
     } else {
-      $(".responsiveNav").css({"display":"none"});
+      $(".responsiveNav").css({ "display": "none" });
     }
   })
 
@@ -31,5 +31,28 @@ $(function () {
         
     })
 })
+
+  $(".bday").click(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      url: "/ajax-GET",
+      dataType: "html",
+      type: "GET",
+      data: { format: "bday-HTML" },
+      success: function (data) {
+        console.log("bday HTML retrieved", data);
+        $("#recipes").html(data);
+        $(".recipe-title").text("Birthday Cookie Recipes");
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        $("#recipes").html(data).text("Error: File not found.\n\n" + jqXHR.statusText);
+        console.log("ERROR", jqXHR, textStatus, errorThrown);
+      }
+    })
+
+  })
+
+
 
 });
