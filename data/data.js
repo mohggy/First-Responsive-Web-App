@@ -159,7 +159,7 @@ let birthdayHTML =
     "<li>Ingredients</li>"+
         "<ul>" + "<li> ½ c unsalted butter, softened to room temperature</li>" +
         "<li> 1 ½ c flour (217 g) </li>" +
-        "<li>1 large egg</li>" + "<li>1 c sugar</li>" + "<li>1 T brown sugar</li>" + "<li>1 ½ tsp vanilla extract</li>" + "<li>1 tsp baking powder</li>" + "<li>½ tsp baking soda</li>" + "<li>½ tsp sea salt</li>" + "<li>½ c rainbow sprinkles</li>" +
+        "<li>1 large egg</li>" + "<li>1 c sugar</li>" + "<li>1 T brown sugar</li>" + "<li>1 ½ tsp vanilla extract</li>" + "<li>1 tsp baking powder</li>" + "<li>½ tsp baking soda</li>" + "<li>½ tsp sea salt</li>" + "<li>½ c rainbow sprinkles</li>" + "</ul>" +
     "<li>Instructions</li>"+
         "<ol>" +
             "<li>In a small bowl, combine flour, salt, baking powder and baking soda. Whisk to combine and set aside.</li>" +
@@ -168,8 +168,97 @@ let birthdayHTML =
             "<li>While cookie dough is chilling, preheat oven to 350°F.</li>" +
             "<li>Place cookie dough balls/scoops two inches apart on parchment lined cookie sheet. Bake 9-11 minutes, cookies will be puffed up and may not look 100% done, but pull them just before you think they are done. Allow to cool completely and enjoy. Store in an airtight container for about 3-5 days.</li>" +
         "</ol>" +
-    "</ul>" + 
-    "<br/>" + "<br/>" + "<hr>" + "<br/>";
+    "</ul>" +  "</ul>" +
+    "<br/>" + "<br/>" + "<hr>" + "<br/>" + 
+    "<ul>" +
+        "<li> Recipe Name</li>" +
+            "<ul>" + "<li> Cake Batter Chocolate Chip Cookies </li>" + "</ul>" +
+        "<li>Prep Time</li>" +
+            "<ul>" + "<li> 2 hours, 15 mins </li>" + "</ul>" + "<img src='images/bday-recipe-2.jpg' alt='recipe7' class='recipeImg'>" +
+    "<li>Cooking Time</li>" +
+        "<ul>" + "<li> 10 MINS </li>" + "</ul>" +
+    "<li>Ingredients</li>"+
+        "<ul>" + "<li> 1 and 1/4 cup (160g) all-purpose flour (spoon & leveled) </li>" +
+        "<li> 1 and 1/4 cup (190g) yellow or vanilla boxed cake mix (not the whole box and you just need the DRY mix)</li>" +
+        "<li>1/2 teaspoon baking soda</li>" + "<li>1/2 teaspoon salt</li>" + "<li>3/4 cup (1.5 sticks or 170g) unsalted butter, softened to room temperature</li>" + "<li>1/2 cup (100g) granulated sugar</li>" + "<li>1/2 cup (100g) packed light brown sugar</li>" + "<li>1 egg, at room temperature</li>" + "<li>1 and 1/2 teaspoons pure vanilla extract</li>" + "<li>1 cup (180g) chocolate chips (I used 1/2 cup of white and 1/2 cup of semi-sweet chocolate chips)" + 
+        "<li>1/2 cup (80g) sprinkles</li>" +
+        "</ul>" +
+    "<li>Instructions</li>"+
+        "<ol>" +
+            "<li>In a large bowl, sift flour, cake mix, salt, and baking soda together. Set aside.</li>" +
+            "<li>Using a hand mixer or a stand mixer fitted with paddle attachment, beat the softened butter and both sugars together on medium speed until creamy and smooth, about 1 minute. Add the egg and mix on high until combined, about 1 minute. Scrape down the sides and bottom of the bowl as needed. Add the vanilla and beat on high until combined. Add the flour mixture to the wet ingredients and mix on low-medium speed until just combined. Add the chocolate chips and sprinkles. Mix on low until the add-ins are evenly combined.</li>" +
+            "<li>Cover tightly with plastic wrap and refrigerate dough for at least 2 hours, or up to 3-4 days. This step is imperative. The dough is fairly sticky, so chilling the dough is required in order to avoid the cookies from spreading too much. If you chill longer than 2 hours, make sure you roll the cookie dough into balls after the 2 hour mark. Place dough balls on a plate, cover tightly, and store in the refrigerator until ready to bake. You may also freeze the balls at this point for up to 3 months. (Then bake as directed adding 1 minute to the bake time without thawing.)</li>" +
+            "<li>Once dough has been chilled, preheat oven to 350°F (177°C). Line two large cookie sheets with parchment paper or silicone baking mats (always recommended for cookies).</li>" +
+            "<li>Scoop rounded balls of the cold dough onto an ungreased baking sheet, use about 1.5 Tablespoons of cookie dough per cookie. Shape your cookie dough balls to be “taller” than they are wide, as pictured above. Make sure to keep dough chilled when working in batches.</li>" +
+            "<li>Bake the cookies for 10-12 minutes until edges are lightly browned. The centers will still appear very soft, but the cookies will continue to set as they cool. You can press a few more chips into the tops of the cookies at this point (the chips will stick because the cookies are still warm).</li>" +
+            "<li>Allow the cookies to cool on the baking sheet for 5 minutes, then transfer to a wire rack to cool completely.</li>" +
+        "</ol>" +
+    "</ul>" + "<br/>" + "<br/>" + "<hr>" + "<br/>" + 
+    "<ul>" +
+    "<li> Recipe Name</li>" +
+        "<ul>" + "<li> BIRTHDAY CAKE COOKIES </li>" + "</ul>" +
+    "<li>Prep Time</li>" +
+        "<ul>" + "<li> 30 MINS </li>" + "</ul>" + "<img src='images/bday-recipe-3.jpeg' alt='recipe8' class='recipeImg'>" +
+    "<li>Cooking Time</li>" +
+        "<ul>" + "<li> 10 mins </li>" + "</ul>" +
+    "<li>Ingredients</li>"+
+        "<ul>" + "<li>1 cup unsalted butter room temperature</li>" +
+        "<li>½ cup granulated sugar</li>" +
+        "<li>¾ cup brown sugar</li>" + "<li>2 large eggs room temperature</li>" + "<li>1 ½ teaspoons vanilla extract</li>" + "<li>½ teaspoon almond extract</li>" + "<li>2 ¾ cups all purpose flour</li>" + "<li>¾ teaspoon salt</li>" + "<li>¾ teaspoon baking soda</li>" + "<li>½ cup rainbow sprinkles</li>" +
+        "<li>12 ounces white chocolate chips</li>" + 
+        "</ul>" +
+    "<li>Instructions</li>"+
+        "<ol>" +
+            "<li>In a large bowl, cream together butter and sugars. Add eggs, vanilla extract, and almond extract. Beat for 1-2 minutes, mixture will look fluffy.</li>" +
+            "<li>In a separate bowl, whisk (or sift) together the flour, salt, and baking soda.</li>" +
+            "<li>Gradually stir dry ingredients into butter mixture until just combined.</li>" +
+            "<li>Add white chocolate chips and sprinkles and stir until just combined.</li>" +
+            "<li>Cover bowl or wrap dough in wax paper. Chill for at least 1 hour (up to 24 hours) in the refrigerator. Refrigerating will help the flavors meld and also create a firmer dough to roll into balls.</li>" +
+            "<li>Preheat oven to 350 degrees.</li>" +
+            "<li>Remove dough from refrigerator. Scoop dough using a 1.5 tablespoon scoop or shape by hand into 1.5 inch balls.</li>" +
+            "<li>Place cookie dough balls 2 inches apart onto a parchment lined baking sheet. Bake for 10-12 minutes, or until lightly browned around edges. Allow to cool for 5 minutes before removing to a wire rack to cool completely.</li>" +
+        "</ol>" +
+    "</ul>" +  "</ul>" +
+    "<br/>" + "<br/>" + "<hr>" + "<br/>" + "<ul>" +
+    "<li> Recipe Name</li>" +
+        "<ul>" + "<li> Birthday Cake Mix Cookies </li>" + "</ul>" +
+    "<li>Prep Time</li>" +
+        "<ul>" + "<li> 12 mins </li>" + "</ul>" + "<img src='images/bday-recipe-4.jpeg' alt='recipe9' class='recipeImg'>" +
+    "<li>Cooking Time</li>" +
+        "<ul>" + "<li> 10-12 mins </li>" + "</ul>" +
+    "<li>Ingredients</li>"+
+        "<ul>" + "<li>1 package birthday cake mix</li>" +
+        "<li>¾ cup white chocolate (130 g), broken into chunks</li>" +
+        "<li>⅓ cup oil (80 mL)</li>" + "<li>2 eggs</li>" + "<li>rainbow sprinkle</li>" + 
+        "</ul>" +
+    "<li>Instructions</li>"+
+        "<ol>" +
+            "<li>Combine cake mix, chocolate chunks, oil, and eggs in a mixing bowl.</li>" +
+            "<li>Using an ice cream scoop or your hand, form golf ball-sized balls of cookie dough and transfer to a parchment paper-lined baking sheet.</li>" +
+            "<li>Bake at 350°F (180°C) for 10-12 minutes.</li>" +
+            "<li>Garnish with sprinkles.</li>" +
+            "<li>Enjoy!</li>" +
+        "</ol>" +
+    "</ul>" +  "</ul>" + "<br/>" + "<br/>" + "<hr>" + "<br/>" + "<ul>" +
+    "<li> Recipe Name</li>" +
+        "<ul>" + "<li> BIRTHDAY CAKE COOKIES </li>" + "</ul>" +
+    "<li>Prep Time</li>" +
+        "<ul>" + "<li> 10 MINS </li>" + "</ul>" + "<img src='images/bday-recipe-5.jpeg' alt='recipe10' class='recipeImg'>" +
+    "<li>Cooking Time</li>" +
+        "<ul>" + "<li> 10-12 mins </li>" + "</ul>" +
+    "<li>Ingredients</li>"+
+        "<ul>" + "<li>1 box Betty Crocker™ Super Moist™ yellow cake mix</li>" +
+        "<li>1/4 cup Betty Crocker™ Decors rainbow mix candy sprinkles</li>" +
+        "<li>1/2 cup butter, melted</li>" + "<li>1 tablespoon milk</li>" + "<li>1 egg</li>" + "<li>1 can Betty Crocker™ Rich & Creamy vanilla frosting</li>" + "<li>1/4 cup Betty Crocker™ Decorating Decors polka dot nonpareils</li>" + 
+        "</ul>" +
+    "<li>Instructions</li>"+
+        "<ol>" +
+            "<li>Heat oven to 350°F. In large bowl, stir cake mix, rainbow candy sprinkles, butter, milk and egg until soft batter forms. Scoop 20 tablespoonfuls of batter onto ungreased large cookie sheet.</li>" +
+            "<li>Bake 8 to 10 minutes or just until cookies are set. Remove from cookie sheet; cool completely.</li>" +
+            "<li>Spread frosting on bottom of 1 cookie; top with second cookie, bottom side down.</li>" +
+            "<li>Roll edges of frosting in confetti candy sprinkles. If desired, top each with a birthday candle.</li>" +
+        "</ol>" +
+    "</ul>" +  "</ul>";
 
 
 
@@ -178,11 +267,8 @@ module.exports = {
   getFudge: function() {
     console.log("called getFudge");
     return fudgeHTML;
-  }
-}
-
-module.exports = {
-    getBirthday: function() {
+  },
+  getBirthday: function() {
         console.log("called getBirthday");
         return birthdayHTML;
     }
