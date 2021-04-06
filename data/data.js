@@ -260,10 +260,23 @@ let birthdayHTML =
         "</ol>" +
     "</ul>" +  "</ul>";
 
+    let macademiaJSON = [
+    {
+        recipeName: "Super-Chunk White Chocolate Macadamia Nut Cookies", 
+        prepTime: "2 hours, 15 minutes", 
+        cookTime: "12 minutes", 
+        ingredients: ["2 cups + 2 Tablespoons (265g) all-purpose flour (spoon & leveled)", "1 teaspoon cornstarch", "1 teaspoon baking soda", "1/2 teaspoon salt", "3/4 cup (1.5 sticks or 170g) unsalted butter melted + slightly cooled", "3/4 cup (150g) packed light or dark brown sugar, 3/4 cup (150g) granulated sugar", "1 large egg + 1 egg yolk at room temperature", "1 and 1/2 teaspoons pure vanilla extract", "1 heaping cup (210g) white chocolate chips*", "1 cup (120g) roughly chopped macadamia nuts*"],
+        instructions: ["Whisk the flour, cornstarch baking soda, and salt together in a large bowl.", "Set aside.", "Whisk the melted butter, brown sugar, granulated sugar, egg, egg yolk, and vanilla extract together until combined.", "Pour into dry ingredients and mix everything together with a rubber spatula until completely combined.", "Fold in the white chocolate chips and macadamia nuts. (You can use a mixer for this step if needed.", "Cover and chill the dough in the refrigerator for at least 2 hours and up to 4 days. If chilling for longer than 2 hours, allow to sit at room temperature for at least 20-30 minutes before rolling and baking because the dough will be quite hard.", "Preheat oven to 350°F (177°C). Line baking sheets with parchment paper or silicone baking mats. Set aside.", "Roll cookie dough into balls, about 1-1.5 Tablespoons of dough per cookie, and arrange 3 inches apart on the baking sheets. Bake for 12-13 minutes or until lightly browned on the sides. The centers will look soft.", "Remove from the oven and allow cookies to cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.", "Cookies stay fresh covered at room temperature for up to 1 week."]
+    },
+    {
+        recipeName: "White Chocolate Macadamia Nut Cookies",
+        prepTime: "15 mins",
+        cookTime: "10 mins",
+        ingredients: ["1 cup butter, softened", "¾ cup packed light brown sugar", "½ cup white sugar", "2 eggs", "½ teaspoon vanilla extract", "½ teaspoon almond extract", "2 ½ cups all-purpose flour", "1 teaspoon baking soda", "½ teaspoon salt", "1 cup coarsely chopped macadamia nuts", ""]
+    }
+];
 
-
-
-module.exports = {
+module.exports = { 
   getFudge: function() {
     console.log("called getFudge");
     return fudgeHTML;
@@ -271,7 +284,11 @@ module.exports = {
   getBirthday: function() {
         console.log("called getBirthday");
         return birthdayHTML;
-    }
+    },
+    getMacademia: function() {
+        console.log("called getMacademia");
+        return macademiaJSON;
+    },
 }
 
 

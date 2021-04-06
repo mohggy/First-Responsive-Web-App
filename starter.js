@@ -32,8 +32,6 @@ app.get('/', (req, res) => {
 app.get("/ajax-GET", function (req,res) {
     let responseFormat = req.query["format"];
     let dataList = null;
-
-  
     if (responseFormat == "fudge-HTML") {
         res.setHeader("Content-Type", "text/html");
         dataList = data.getFudge();
@@ -41,6 +39,10 @@ app.get("/ajax-GET", function (req,res) {
     }     else if (responseFormat == "bday-HTML") {
         res.setHeader("Content-Type", "text/html");
         dataList = data.getBirthday();
+        res.send(dataList);
+    } else if (responseFormat == "macademia-JSON") {
+        res.setHeader("Content-Type", "application/json");
+        dataList = data.getMacademia();
         res.send(dataList);
     }
 
