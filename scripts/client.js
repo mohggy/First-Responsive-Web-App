@@ -88,9 +88,8 @@ $(function () {
 
                     list += "<li>" + data[i].instructions[m] + "</li>"
                   } 
-                  list += "</ol>";   
+                  list += "</ol>" + "</ul>" + "<br/>" + "<br/>" + "<hr>" + "<br/>" + "<ul>";   
         } 
-        list += "</ul>" + "<br/>" + "<br/>" + "<hr>" + "<br/>";
 
         div.html(list);
         $(".recipe-title").text("Macademia Cookie Recipes");
