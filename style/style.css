@@ -19,7 +19,7 @@
     margin-left: 80px;
   }
   .responsiveNav {
-    margin-top: 20px;
+    margin-top: -25px;
     background-color: coral;
     width: 70%;
   }
@@ -68,8 +68,15 @@
 @media only screen and (min-width: 876px) {
 
   .title1 {
-    display: none;
+    display: block;
+    color: white;
+    font-size: 30pt;
+    transform: translate(0, 30%);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-left: 80px;
   }
+
   #hamMenu img {
     display: none;
   }
@@ -173,16 +180,6 @@
 }
 
 
-.title {
-  text-transform: uppercase;
-  letter-spacing: 0.4em;
-  font-size: 30pt;
-  color: white;
-  font-weight: bold;
-  margin-left: 60px;
-  transform: translate(0, -40%);
-  display: inline-block;
-}
 
 .navOptions {
   color: black;
@@ -217,7 +214,6 @@ hr {
   width: 85%;
   background-color: gainsboro;
 }
-
 
 
 

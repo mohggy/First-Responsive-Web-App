@@ -44,6 +44,10 @@ app.get("/ajax-GET", function (req,res) {
         res.setHeader("Content-Type", "application/json");
         dataList = data.getMacademia();
         res.send(dataList);
+    } else if (responseFormat == "smores-JSON") {
+        res.setHeader("Content-Type", "application/json");
+        dataList = data.getSmores();
+        res.send(dataList);
     }
 
 

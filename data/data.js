@@ -276,7 +276,7 @@ let macademiaJSON = [
         instructions: ["Preheat oven to 350 degrees F (175 degrees C).", "In a large bowl, cream together the butter, brown sugar, and white sugar until smooth. Beat in the eggs, one at a time, then stir in the vanilla and almond extracts. Combine the flour, baking soda, and salt; gradually stir into the creamed mixture. Mix in the macadamia nuts and white chocolate. Drop dough by teaspoonfuls onto ungreased cookie sheets.", "Bake for 10 minutes in the preheated oven, or until golden brown."]
     },
     {
-        recipeName: "White Chocolate Macadamia Nut Cookies",
+        recipeName: "White Chocolate Macadamia Nuts Cookies",
         prepTime: "3 hours 35 minutes",
         cookTime: "27 minutes",
         ingredients: ["2 1/2 cups (325g) all-purpose flour", "1 tsp baking soda", "1/2 tsp salt", "3/4 cup (168g) unsalted butter, room temperature", "1 cup (225g) light brown sugar", "1/2 cup (104g) granulated sugar", "1 large egg", "1 large egg yolk", "2 tsp vanilla extract", "1 1/4 cup (211g) white chocolate chips", "1 cup (120g) roasted salted macadamia nuts, chopped", "1–2 tsp of milk"],
@@ -300,7 +300,39 @@ let macademiaJSON = [
 
 let smoresJSON = [
     {
-        recipeName: 
+        recipeName: "Smores Cookies",
+        prepTime: "10 min",
+        cookTime: "10 min",
+        ingredients: ["1 1/2 cups all-purpose flour 180g", "½ tsp. baking powder", "½ tsp. baking soda", "1 tsp corn starch", "3/4 cup semisweet chocolate chips", "10 tbsp unsalted butter room temperature", "1/4 cup granulated sugar", "1/2 cup light brown sugar", "1 egg", "1 tsp vanilla extract", "¼ tsp salt", "1 cup mini marshmallows OR marshmallow bits, divided", "1 bar Hershey's Chocolate 1.55oz", "4 Graham crackers 56g"],
+        instructions: ["Roughly chop the Graham crackers and Hershey's bar, then tear the mini marshmallows in half. These marshmallows are one of the best parts of the cookie but they will puff up and get a bit out of control if you don't halve them.", "Combine the flour, salt, baking powder, baking soda, and cornstarch in a bowl then whisk together and set aside.", "Using a stand or hand mixer, beat butter and sugars in a bowl until creamy, about 2 minutes. Add in egg and vanilla and until combined. Scrape the bowl down and mix once more.", "Gradually add flour mixture to butter mixture, beating on low speed until just combined.", "Reserve a handful of the torn marshmallows and set aside then add the remaining marshmallows, chocolate chips, and Graham crackers to the dough and mix on low until just combined (do not over-beat).", "Refrigerate dough for an hour or more.", "Heat oven to 350F. Portion out roughly two tablespoon sized pieces of dough. Roll into balls and place on a parchment-lined baking sheet, spacing about 2 inches apart.", "Bake at 350° for 8 minutes then top the cookies with the reserved marshmallow and Hershey's bar pieces then return to the oven for 2-3 minutes to finish baking. IF a some cookies had a blowout because of a few too many marshmallows to you can corral them back together with a round cookie cutter or a knife.", "Leave on pan to cool completely."]
+    }, 
+    {
+        recipeName:"Smores Cookie",
+        prepTime: "15 min",
+        cookTime: "15 min",
+        ingredients: ["¾ cup unsalted butter, browned and cooled", "1 cup light brown sugar, packed", "⅓ cup Simply Nature Organic Cane Sugar", "1 egg + 1 egg yolk, room temperature", "2 teaspoons vanilla extract", "¾ teaspoon salt", "1 3/4 cups all-purpose flour", "¾ teaspoon baking soda", "1 cup Baker’s Corner Dark Chocolate Morsels", "4 sheets Graham Crackers", "9 Baker’s Corner Marshmallows, halved"],
+        instructions: ["In a heavy bottomed saucepan heat butter over medium heat to brown it, stirring constantly until the butter begins to foam and turns a golden brown, emitting a nutty aroma. Take butter off the heat and allow to cool completely before using", "In a large mixing bowl, combine the cooled brown butter, brown sugar and Simply Nature Organic Cane Sugar, whisking until combined. Add the egg, egg yolk and vanilla. Mix well. Add the flour, baking soda and salt, folding until just combined . Carefully fold in the Baker’s Corner Dark Chocolate Morsels and graham crackers until just combined.", "Scoop out the cookies using a 1 ounce cookie scoop. Place your thumb in the middle to form a cavity and place half a marshmallow inside. Release the ball from the cookie scoop and roll together so that the marshmallow is covered. Repeat with remaining dough. Refrigerate cookie dough balls for at least 1 hour or up to overnight.", "Preheat the oven to 350°F when you are ready to bake. Place the cookies two inches apart on a cookie sheet lined with parchment paper. Bake for 12 to 14 minutes or until the edges are golden brown, but the center is still gooey. Allow to cool before devouring!"]
+    },
+    {
+        recipeName: "Chocolate Smores",
+        prepTime: "20 min",
+        cookTime: "10 min",
+        ingredients: ["1 cup unsalted sweet cream butter softened, (220g)", "¾ cup granulated sugar (150g)", "¾ cup light brown sugar packed, (175g)", "2 large eggs", "½ tsp pure vanilla extract (2.5 ml)", "2 ⅓ cups all-purpose flour (292g)", "1 ¼ cup graham cracker crumbs (or about 7.5 graham crackers-crushed) (125g)", "2 tsp cornstarch (8.5g)", "1 tsp baking powder (4g)", "½ tsp baking soda (2g)", "½ tsp salt (2g)", "2 cups mini marshmallows* (80g)", "1 cup chocolate chips", "5 oz chopped milk chocolate bars"],
+        instructions: ["In KitchenAid mixer, cream together butter and sugars on medium speed until light and fluffy.", "Add eggs, one at a time, and then vanilla, stirring until combined.", "In separate bowl combine flour, graham cracker crumbs, cornstarch, baking powder, baking soda, and salt.", "Gradually add flour mixture to butter mixture, pausing periodically to scrape down the sides of the bowl with a spatula.", "Stir in mini marshmallows, chocolate chips, and milk chocolate pieces.", "Preheat oven to 375F (190C) and line cookie sheets with parchment paper.", "Portion cookies into 1 ½", "balls. If desired, press additional pieces of chocolate bar or marshmallows on top of dough.", "Bake on 375F (190C) for 10 minutes.", "Allow cookies to cool on cookie tray for 5 minutes before transferring to wire rack to cool completely."]
+    },
+    {
+        recipeName: "chewy smores cookie",
+        prepTime: "15 min",
+        cookTime: "10 min",
+        ingredients: ["2 sticks (8 oz.) unsalted butter (softened)", "½ cup (4 oz.) white sugar", "1¼ cup (8¾ oz.) light brown sugar (packed)", "2 eggs", "2 teaspoons (¼ oz.) vanilla extract", "2½ cups all-purpose flour", "1 cup graham cracker crumbs (see notes)", "1½ teaspoons baking soda", "¾ teaspoon salt", "1 cup milk chocolate chips", "1 cup mini semi-sweet chocolate chips", "1 cup mini Jet Puffed Mallow Bits", "1 Hershey’s bar (broken up)"],
+        instructions: ["Preheat the oven to 350ºF.", "Cream the butter and the sugars until light and fluffy. Scrape down the side of the bowl. Continue mixing while adding the eggs one at time. Make sure each egg is incorporated before adding the next. Add the vanilla. Scrape down the bowl with a spatula.", "Combine the flour, graham cracker crumbs, baking soda, and salt in another bowl. Whisk to combine. With the machine on low, slowly add the flour mixture. Mix until just combined. With a spatula fold in the milk chocolate chips, mini chocolate chips, and marshmallows.", "Use a cookie scoop to drop cookies onto a parchment lined baking sheet. If desired, garnish with broken up Hershey’s bar, broken up graham cracker, and addition Mallow Bits.", "Bake for 10 minutes. They should be lightly golden on the outside but still look gooey on the inside."]
+    },
+    {
+        recipeName: "S'mores Stuffed Cookies",
+        prepTime: "10 min",
+        cookTime: "1 hour",
+        ingredients: ["1 1/4 c. (2 1/2 sticks) butter, softened", "1 c. packed brown sugar", "1/2 c. granulated sugar", "2 tsp. pure vanilla extract", "2 large eggs", "2 3/4 c. all-purpose flour", "1 tsp. baking soda", "3/4 tsp. kosher salt", "2 c. semisweet chocolate chips", "8 graham crackers", "8 marshmallows", "3 (1.55-oz.) Hersheys bars, broken into squares of 4 pieces"],
+        instructions: ["Preheat oven to 375º and line two large baking sheets with parchment paper. Make cookie dough: In a large bowl using an electric mixer (or in a stand mixer), beat butter and sugars until light and fluffy, about 2 minutes. Slowly beat in vanilla extract and eggs until evenly incorporated.", "In a separate bowl, mix flour, baking soda, and salt. Stir into butter-sugar mixture until just combined, then fold in chocolate chips.", "Make s'mores: Cut each marshmallow in half lengthwise. Sandwich halved marshmallow and one square chocolate between two squares of graham cracker. Repeat with remaining s'more ingredients.", "Assemble cookies: Scoop approximately 1/4 cup of cookie dough, flatten into a round slightly larger than the s'more, place on prepared baking sheet, and place prepared s'more on stop. Scoop another 1/4 cup of cookie dough, flatten, and use to cover s'more until no graham cracker is visible. Flip cookie so first scoop of dough is now the top of the cookie. Repeat until remaining dough and s'mores are used. Refrigerate on baking sheets for 10 to 15 minutes.", "Bake cookies until lightly golden, 16 to 18 minutes. Let cool 10 minutes on baking sheet before serving."]
     }
 ]
 
@@ -317,6 +349,10 @@ module.exports = {
         console.log("called getMacademia");
         return macademiaJSON;
     },
+    getSmores: function() {
+        console.log("called getSmores");
+        return smoresJSON;
+    }
 }
 
 
